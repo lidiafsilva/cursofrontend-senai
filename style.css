@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    border: 5px;
+    background-color: rgb(4, 86, 148);
+}
+
+.div-1{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    justify-content: flex-end;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.514);
+    align-items: center;
+}
+
+
+.div-2{
+    display: flex;
+    justify-content:space-between;
+    padding: 20px 30px;
+    align-items: center;
+    
+
+
+}
+
+#lista-1{
+    display: flex;
+    gap: 1.5625rem;
+    list-style: none;
+    color: rgba(255, 255, 255, 0.582);
+    padding: 10px;
+    
+
+}
+
+#lista-2{
+    display: flex;
+    gap: 1.5625rem;
+    list-style-type: none;
+    
+    
+}
+a{
+    color: rgba(255, 255, 255, 0.582);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity: 0.9;
+}
+
+a:hover{
+    opacity: 1;
+
+}
+
+.img{
+    background-color: white;
+}
+
+.secao-1{
+    border: 3px ;
+    height: 500px;
+    display: flex;
+}
+
+
+.div-secao{
+    border: 1px solid black;
+
+}
+
+.watch-fifa{
+    height: 600px;
+    flex-basis: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url("https://digitalhub.fifa.com/transform/9a17f3df-55f7-4b6c-be8c-812401566dab/MicrosoftTeams-image-139");
+    background-position: center;
+    background-size: cover;
+    color: rgba(255, 255, 255, 0.582);
+
+}
+
+.watch-fifa button{
+    padding: 10px 60px;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    border-radius: 10px;
+    transition: 0.5 ease-in-out;
+    background-image: linear-gradient(111.98deg,#00b8ff 18.07%,#1574c4 90.31%);
+}
+
+    .watch-fifa button:hover{
+        transform: scale(1.1);
+        cursor: pointer;
+
+    }
+
+.copa{
+    height: 600px;
+    flex-basis: 75%;
+    background-image: url("https://digitalhub.fifa.com/transform/d76c597f-84a8-4f97-848e-d14777db4499/Argentina-v-France-Final-FIFA-World-Cup-Qatar-2022?io=transform:fill,height:868,width:1366&quality=75");
+    display: flex;
+    align-items: flex-end;
+    background-position: center;
+    background-size: cover;
+    color: rgba(255, 255, 255, 0.74);
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.cards{
+    margin-top: 10px;
+    gap:50px;
+    width: 100%;
+    display: flex;
+    align-self: flex-end;
+    flex-basis: 50%;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(68, 64, 64) ;
+    font-size: smaller;
+     
+}
+
+.secao-2{
+    background-color: rgb(219, 213, 213);
+    padding: 30px;
+    margin-top: 100px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: rgb(68, 64, 64);
+    right: 200px;
+    padding-bottom: 100px;
+}
+
+.card{
+    padding-right: 5px;
+    border-radius: 15px;
+    gap: 25px;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+h3{
+padding-top: 10px;
+
+}
+
+.secao-3{
+    padding: 30px;
+    font-size: 20px;
+    background-color: rgb(219, 213, 213);
+    color:rgb(51, 46, 46);
+    padding-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: left;   
+}
+
+.secao3-div1{
+
+    padding: 40px;
+    justify-content: flex-end;
+    
+}
